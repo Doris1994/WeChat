@@ -165,7 +165,7 @@ MomentTableViewCell ()<TTTAttributedLabelDelegate>
     self.fullTextButton.sd_layout
       .leftEqualToView(self.contentLabel)
       .topSpaceToView(self.contentLabel, 5)
-      .widthIs(30)
+      .widthIs(40)
       .heightIs(18);
 
     self.photosController.collectionView.sd_layout
